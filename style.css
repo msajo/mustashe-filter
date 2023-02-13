@@ -18,7 +18,7 @@ canvas {
     
 }
 @keyframes text {
-    from{color: rgb(127, 247, 145) ; }
-    to{color: rgb(129, 192, 255) ;}
+    from{color: rgb(255, 0, 0) ; }
+    to{color: rgb(255, 234, 0) ;}
     
 }
