@@ -1,6 +1,6 @@
 nose_x = 0;
 nose_y = 0;
-function preLoad(){
+function preload(){
     mustache = loadImage("https://i.postimg.cc/3x3QzSGq/m.png");
 }
 function setup(){
@@ -27,7 +27,7 @@ function gotPose(results){
 }
 function draw(){
     image(video,0,0,300,300);
-    image(mustache,nose_x,nose_y,30,20);
+    image(mustache,nose_x-20,nose_y,40,20);
     
     
     
